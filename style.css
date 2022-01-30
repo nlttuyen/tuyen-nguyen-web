@@ -1,3 +1,202 @@
+:root{
+    --background-main: #0c1320;
+    --text-main: #FF4D00;
+    --text-sub: rgb(255, 224, 195);
+    --font-main: 'Rajdhani', sans-serif;
+    --font-head: 'Arvo', serif;
+}
+body{
+    background-color: var(--background-main);
+    font-family: var(--font-main);
+}
 h1{
-    color: orangered;
+    color: var(--text-sub);
+    text-align: center;
+    font-family: var(--font-head);
+    margin-top: 30px;
+}
+.greeting{
+    font-size: 50px;
+    color: var(--text-main);
+    margin-top: 0;
+}
+h2{
+    color: var(--text-main);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+h3{
+    color: var(--text-main);
+    text-align: center;
+    font-family: var(--font-head);
+    font-size: 35px;
+}
+nav {
+    padding: 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    padding-left: 15px;
+}
+nav a{
+    color: var(--text-sub);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 200ms ease-in-out;
+}
+nav a:hover{
+    color: var(--text-main);
+}
+.active a{
+    color: var(--text-main);
+    font-size: 21px;
+}
+.navigation{
+    background-color: rgba(128, 128, 128, 0.651);
+}
+.title{
+    color: var(--text-main);
+    font-family: var(--font-head);
+    font-size: 25px;
+    font-weight: bolder;
+    border: 2px solid var(--text-sub);
+    border-radius: 50%;
+    padding: 1px 10px;
+}
+.hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(images/IMG_9032.jpg);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100 vh;
+    width: 100%;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+.button-group{
+    text-align: center;
+}
+.about{
+    margin-top: 70px;
+}
+.introduction{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+h4{
+    color: var(--text-main);
+    font-size: 25px;
+    font-family: var(--font-head);
+}
+.about img{
+    max-width: 60%;
+    border-radius: 50%;
+    border-top: 3px solid var(--text-main);
+    border-bottom: 3px solid var(--text-sub);
+}
+.about p{
+    color: var(--text-sub);
+}
+.button{
+    background: var(--text-sub);
+    color: var(--text-main);
+    font-size: 22px;
+    border: 1px solid var(--text-main);
+}
+.card-color{
+    background: var(--text-sub);
+    color: var(--background-main);
+}
+.line-decor{
+    color: var(--text-main);
+    border: 2px solid var(--text-main);
+}
+.description{
+    color: var(--text-sub);
+    text-align: center;
+    font-size: 22px;
+}
+.cardText{
+    font-size: 30px;
+}
+.link{
+    color: var(--text-main);
+    font-size: 18px;
+    transition: all 200ms ease-in-out;
+}
+.link:hover{
+    color: black;
+}
+.code-by-me {
+    color: var(--text-sub);
+    padding-top: 10px;
+    font-family: var(--font-head);
+    font-size: 14px;
+  }
+  .code-by-me span {
+    color: var(--text-main);
+  }
+  .code-by-me a {
+    text-decoration: none;
+    color: var(--text-main);
+  }
+  footer .social-links a {
+    margin: 0 15px;
+    color: var(--text-main);
+    font-size: 22px;
+    transition: all 100ms ease-in-out;
+  }
+  footer .social-links a:hover {
+    color: var(--text-sub);
+  }
+.skills{
+    color: var(--text-sub);
+    font-size: 18px;
+}
+.skills i{
+    color: var(--text-main);
+    font-size: 25px;
+}
+.certi{
+    max-width: 100%;
+}
+.text-1{
+    color: var(--text-sub);
+    font-size: 22px;
+    text-align: center;
+}
+.contact-form{
+    border: 1px solid var(--text-main);
+    padding: 10px;
+    border-radius: 4px;
+}
+.contact-box{
+    color: var(--text-sub);
+    font-size: 20px;
+}
+.contact-address p{
+    color: var(--text-main);
+    font-family: var(--font-head);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.contact-address a{
+    color: var(--text-sub);
+    font-size: 22px;
 }
